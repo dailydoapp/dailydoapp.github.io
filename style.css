@@ -1,0 +1,223 @@
+@charset "UTF-8";
+
+.header {
+  background: url("./images/header-bg.png");
+  background-repeat: repeat-x;
+}
+
+.header .logo {
+  padding-top: 30px;
+}
+
+.header .logo .logo-img {
+  max-width: 40px;
+  margin-top: 8px;
+  vertical-align: top;
+}
+
+.header .logo .logo-text {
+  font-size: 42px;
+  font-weight: 800;
+}
+
+.header .logo .logo-icon {
+  background: #F58024;
+  border: 1px solid #F58024;
+  color: #fff;
+  border-radius: 5px;
+  padding: 8px;
+  margin-right: 10px;
+  font-size: 42px;
+}
+
+
+.quote-wrap {
+  quotes: "“" "”" "‘" "’";
+}
+
+.quote-wrap:before {
+  content: open-quote;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+.quote-wrap:after {
+  content: close-quote;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+
+.tip-content {
+  padding: 60px 30px 20px 30px;
+  position: relative;
+  text-align: center;
+  line-height: 100px;
+  background-color: #F3F3F3;
+  border: 8px solid #777;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888;
+}
+
+
+.tip-content:before {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 210px;
+  top: -50px;
+  border: 25px solid;
+  border-color: #777 transparent transparent #777;
+  transform: rotate(180deg);
+}
+
+
+.tip-content:after {
+  content: ' ';
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 223px;
+  top: -29px;
+  border: 15px solid;
+  border-color: #F3F3F3 transparent transparent #F3F3F3;
+  transform: rotate(180deg);
+}
+
+
+.tip-social {
+  margin-top: 30px;
+}
+
+
+.fa.tip-quote {
+  font-size: 42px;
+  position: relative;
+  left: -50px;
+  top: 10px;
+}
+
+
+.about-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.about-content {
+  font-size: 14px;
+}
+
+
+.about-card {
+  margin-top: 30px;
+}
+
+
+.about-social-twitter {
+  margin-top: 15px;
+}
+
+
+.tip-number {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.tip-number .highlight {
+  text-align: center;
+  width: 75px;
+  height: 75px;
+  background: #f1c40f;
+  border: 1px solid #f1c40f;
+  color: #000;
+  padding-top: 15px;
+  font-size: 30px;
+  font-weight: 300;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.tip-number .tip-prev, .tip-number .tip-next {
+  display: inline;
+  font-size: 30px;
+  margin: 10px;
+  font-weight: 300;
+}
+
+.tip-number .tip-prev a, .tip-number .tip-next a {
+  color: #777;
+}
+
+
+.tip-container {
+  margin-top: 10px;
+}
+
+.tip-container .tip-title {
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 50px;
+}
+
+.tip-container .tip-social {
+  margin-bottom: 25px;
+  text-align: left;
+  height: 30px;
+}
+
+.tip-container .tip-summary {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+
+.tip-image img {
+  max-width: 100%;
+}
+
+
+.fb-share-button {
+  top: -6px;
+  margin-right: 10px;
+}
+
+
+.about-subscribe {
+  margin-top: 15px;
+}
+
+/* Sticky footer styles */
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  line-height: 40px;
+  /* Vertically center the text there */
+  background-color: #f5f5f5;
+  font-size: 12px;
+  border-top: 1px solid #e7e7e7;
+  text-align: right;
+}
+
+/* /Sticky footer styles */
